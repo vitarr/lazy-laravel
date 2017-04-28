@@ -2,10 +2,17 @@
 <project version="4">
   <component name="PublishConfigData" serverName="lazy-laravel">
     <serverData>
+      <paths name="lazy-lara.dev">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="lazy-laravel">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/public" />
+            <mapping local="$PROJECT_DIR$" web="public" />
           </mappings>
         </serverdata>
       </paths>
