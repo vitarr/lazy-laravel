@@ -61,7 +61,7 @@
                         <div>{{ $task->name }}</div>
                     </td>
 
-                    <td>
+                    <td style="width: 20%;">
                         <form action="{{ url('task/'.$task->id) }}" method="POST">
                             {{ csrf_field() }}
                             {{ method_field('DELETE') }}
